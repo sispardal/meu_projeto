@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Graciele Cruz | Enfermeira Domiciliar</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background: #f6fffb;
+        color: #1f2937;
+      }
+
+      /* NAV */
+      nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 60px;
+        background: white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      }
+
+      nav h2 {
+        color: #0a8f5a;
+      }
+
+      nav a {
+        text-decoration: none;
+        margin-left: 25px;
+        color: #333;
+        font-weight: 500;
+      }
+
+      /* HERO */
+      .hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 80px 60px;
+      }
+
+      .hero-text {
+        max-width: 500px;
+      }
+
+      .hero h1 {
+        font-size: 2.8rem;
+        color: #0a8f5a;
+      }
+
+      .hero p {
+        margin: 20px 0;
+        font-size: 1.1rem;
+      }
+
+      .btn {
+        background: #0cc27a;
+        color: white;
+        padding: 14px 30px;
+        border-radius: 30px;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.3s;
+      }
+
+      .btn:hover {
+        background: #099e63;
+      }
+
+      /* DIFERENCIAIS */
+      .features {
+        padding: 60px;
+        text-align: center;
+      }
+
+      .features h2 {
+        margin-bottom: 40px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 25px;
+      }
+
+      .box {
+        background: white;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+      }
+
+      /* SERVIÇOS */
+      .services {
+        padding: 60px;
+        background: #ecfff6;
+        text-align: center;
+      }
+
+      .card {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+      }
+
+      /* CTA */
+      .cta {
+        padding: 70px;
+        text-align: center;
+      }
+
+      .cta h2 {
+        margin-bottom: 20px;
+      }
+
+      /* FOOTER */
+      footer {
+        background: #0a8f5a;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      /* WHATSAPP */
+      .whatsapp {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #25d366;
+        padding: 15px;
+        border-radius: 50%;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <h2>👩‍⚕️ Graciele Cruz</h2>
+      <div>
+        <a href="#">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Enfermagem Domiciliar com Segurança e Humanização</h1>
+        <p>
+          Atendimento profissional no conforto da sua casa com cuidado, ética e
+          qualidade.
+        </p>
+        <a href="https://wa.me/5591998100998" class="btn"
+          >Agendar Atendimento</a
+        >
+      </div>
+    </section>
+
+    <section class="features">
+      <h2>Por que escolher?</h2>
+      <div class="grid">
+        <div class="box">✔️ Atendimento humanizado</div>
+        <div class="box">✔️ Profissional qualificada</div>
+        <div class="box">✔️ Segurança e confiança</div>
+        <div class="box">✔️ Atendimento domiciliar</div>
+      </div>
+    </section>
+
+    <section class="services" id="servicos">
+      <h2>Serviços</h2>
+      <div class="grid">
+        <div class="card">💉 Injetáveis</div>
+        <div class="card">🩹 Curativos</div>
+        <div class="card">🩺 Pressão Arterial</div>
+        <div class="card">🧪 Glicemia</div>
+        <div class="card">⏱️ Plantões</div>
+      </div>
+    </section>
+
+    <section class="cta" id="contato">
+      <h2>Precisa de atendimento?</h2>
+      <p>Entre em contato agora mesmo e agende seu atendimento.</p>
+      <a href="https://wa.me/5591998100998" class="btn">Falar no WhatsApp</a>
+    </section>
+
+    <footer>© 2026 Graciele Cruz Enfermeira</footer>
+
+    <a href="https://wa.me/5591998100998" class="whatsapp">💬</a>
+  </body>
+</html>
