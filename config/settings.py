@@ -17,7 +17,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['.onrender.com']
+ALLOWED_HOSTS = ['meu-projeto-s5u7.onrender.com']
 
 
 # APPS
