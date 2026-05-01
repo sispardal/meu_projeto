@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 def home(request):
-    return HttpResponse("Site funcionando no Render 🚀")
+    return render(request, 'core/home.html')
