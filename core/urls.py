@@ -1,8 +1,5 @@
 from django.urls import path
-from django.http import HttpResponse
-
-def home(request):
-    return HttpResponse("SITE ONLINE 🚀")
+from core.views import home
 
 urlpatterns = [
     path('', home),
