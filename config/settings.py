@@ -14,11 +14,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'chave-insegura-apenas-dev')
 
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = [
-    'meu-projeto-s5u7.onrender.com',
-    'localhost',
-    '127.0.0.1'
-]
+ALLOWED_HOSTS = ['*']
 
 
 # ========================
